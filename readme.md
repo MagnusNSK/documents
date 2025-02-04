@@ -1,16 +1,4 @@
-# / / Theme, Icon Pack, and Cursor
-
-### \ THEME
-
-https://github.com/vinceliuice/Fluent-gtk-theme
-
-### \ ICONS
-
-https://www.pling.com/s/Gnome/p/1309810/
-
-### \ CURSOR
-
-https://www.pling.com/p/2042592
+# Contains config file and other documents
 
 ---
-*Last updated: Janurary 4th, 2025*
+*Last updated: February 4th, 2025*
