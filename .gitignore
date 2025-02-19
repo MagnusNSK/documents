@@ -1,8 +1,10 @@
 *
 !.gitignore
-!foot/**
-!fish/**
-!hypr/**
-!nvim/**
-!mpv/**
+!.config/
+!.config/hypr/**
+!.config/foot/**
+!.config/fish/**
+!.config/nvim/**
+!.config/mpv/**
+!.bashrc
 
