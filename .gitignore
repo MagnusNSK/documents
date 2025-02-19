@@ -1,6 +1,11 @@
 *
 !.gitignore
 !.config/
+!.config/hypr/
+!.config/foot/
+!.config/fish/
+!.config/nvim/
+!.config/mpv/
 !.config/hypr/**
 !.config/foot/**
 !.config/fish/**
