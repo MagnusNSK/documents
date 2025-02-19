@@ -1,0 +1,8 @@
+*
+!.gitignore
+!foot/**
+!fish/**
+!hypr/**
+!nvim/**
+!mpv/**
+
