@@ -8,7 +8,7 @@ return require('packer').startup(function(use)
     'nvim-telescope/telescope.nvim', tag = '0.1.8',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-  use "ellisonleao/gruvbox.nvim"
+  use("savq/melange-nvim")
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
   use('theprimeagen/harpoon')
@@ -70,7 +70,6 @@ return require('packer').startup(function(use)
           })
       end,
   })
-
 
   use 'hrsh7th/cmp-nvim-lsp'
   use 'hrsh7th/cmp-buffer'
