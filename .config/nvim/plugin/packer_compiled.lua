@@ -74,28 +74,8 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["cmp-buffer"] = {
-    loaded = true,
-    path = "/home/yukun/.local/share/nvim/site/pack/packer/start/cmp-buffer",
-    url = "https://github.com/hrsh7th/cmp-buffer"
-  },
-  ["cmp-cmdline"] = {
-    loaded = true,
-    path = "/home/yukun/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
-    url = "https://github.com/hrsh7th/cmp-cmdline"
-  },
-  ["cmp-nvim-lsp"] = {
-    loaded = true,
-    path = "/home/yukun/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
-    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
-  },
-  ["cmp-path"] = {
-    loaded = true,
-    path = "/home/yukun/.local/share/nvim/site/pack/packer/start/cmp-path",
-    url = "https://github.com/hrsh7th/cmp-path"
-  },
   ["dashboard-nvim"] = {
-    config = { "\27LJ\2\n¨\6\0\0\a\0\16\0\0256\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\3\0005\4\5\0005\5\4\0=\5\6\0044\5\6\0005\6\a\0>\6\1\0055\6\b\0>\6\2\0055\6\t\0>\6\3\0055\6\n\0>\6\4\0055\6\v\0>\6\5\5=\5\f\0045\5\r\0=\5\14\4=\4\15\3B\1\2\1K\0\1\0\vconfig\vfooter\1\2\0\0\6 \rshortcut\1\0\4\bkey\6c\tdesc\17 Packer File\vaction*e ~/.config/nvim/lua/yukun/packer.lua\ngroup\vNumber\1\0\4\bkey\6r\tdesc\18 Recent Files\vaction\23Telescope oldfiles\ngroup\19DiagnosticHint\1\0\4\bkey\6n\tdesc\23 Obsidian Template\vaction\28ObsidianNewFromTemplate\ngroup\14@property\1\0\4\bkey\6u\tdesc\18 Obidian Note\vaction\16ObsidianNew\ngroup\14@property\1\0\4\bkey\6f\tdesc\15 Find File\vaction\25Telescope find_files\ngroup\nLabel\vheader\1\0\3\vfooter\0\vheader\0\rshortcut\0\1\b\0\0#                              #    _   _     ___    _  __    #   | \\ | |   / __|  | |/ /    #   |  \\| |   \\__ \\  | ' <     #   | |\\  |   |__) | | . \\     #   |_| \\_|  |____/  |_|\\_\\    #                              \1\0\2\vconfig\0\ntheme\nhyper\nsetup\14dashboard\frequire\0" },
+    config = { "\27LJ\2\n¨\6\0\0\a\0\16\0\0256\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\3\0005\4\5\0005\5\4\0=\5\6\0044\5\6\0005\6\a\0>\6\1\0055\6\b\0>\6\2\0055\6\t\0>\6\3\0055\6\n\0>\6\4\0055\6\v\0>\6\5\5=\5\f\0045\5\r\0=\5\14\4=\4\15\3B\1\2\1K\0\1\0\vconfig\vfooter\1\2\0\0\6 \rshortcut\1\0\4\vaction*e ~/.config/nvim/lua/yukun/packer.lua\ngroup\vNumber\bkey\6c\tdesc\17 Packer File\1\0\4\vaction\23Telescope oldfiles\ngroup\19DiagnosticHint\bkey\6r\tdesc\18 Recent Files\1\0\4\vaction\28ObsidianNewFromTemplate\ngroup\14@property\bkey\6n\tdesc\23 Obsidian Template\1\0\4\vaction\16ObsidianNew\ngroup\14@property\bkey\6u\tdesc\18 Obidian Note\1\0\4\vaction\25Telescope find_files\ngroup\nLabel\bkey\6f\tdesc\15 Find File\vheader\1\0\3\rshortcut\0\vfooter\0\vheader\0\1\b\0\0#                              #    _   _     ___    _  __    #   | \\ | |   / __|  | |/ /    #   |  \\| |   \\__ \\  | ' <     #   | |\\  |   |__) | | . \\     #   |_| \\_|  |____/  |_|\\_\\    #                              \1\0\2\vconfig\0\ntheme\nhyper\nsetup\14dashboard\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
@@ -112,11 +92,6 @@ _G.packer_plugins = {
     path = "/home/yukun/.local/share/nvim/site/pack/packer/start/melange-nvim",
     url = "https://github.com/savq/melange-nvim"
   },
-  ["nvim-cmp"] = {
-    loaded = true,
-    path = "/home/yukun/.local/share/nvim/site/pack/packer/start/nvim-cmp",
-    url = "https://github.com/hrsh7th/nvim-cmp"
-  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/yukun/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -131,12 +106,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/yukun/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
-  },
-  ["obsidian.nvim"] = {
-    config = { "\27LJ\2\n·\2\0\0\5\0\b\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0004\3\3\0005\4\3\0>\4\1\3=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\14templates\1\0\3\16date_format\16%Y-%m-%d-%a\16time_format\n%H:%M\vfolder\0216-note-templates\15workspaces\1\0\5\23new_notes_location\17notes_subdir\24disable_frontmatter\2\17notes_subdir\0175-full-notes\15workspaces\0\14templates\0\1\0\2\tpath\20~/obsidian/main\tname\tmain\nsetup\robsidian\frequire\0" },
-    loaded = true,
-    path = "/home/yukun/.local/share/nvim/site/pack/packer/start/obsidian.nvim",
-    url = "https://github.com/epwalsh/obsidian.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -171,10 +140,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: obsidian.nvim
-time([[Config for obsidian.nvim]], true)
-try_loadstring("\27LJ\2\n·\2\0\0\5\0\b\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0004\3\3\0005\4\3\0>\4\1\3=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\14templates\1\0\3\16date_format\16%Y-%m-%d-%a\16time_format\n%H:%M\vfolder\0216-note-templates\15workspaces\1\0\5\23new_notes_location\17notes_subdir\24disable_frontmatter\2\17notes_subdir\0175-full-notes\15workspaces\0\14templates\0\1\0\2\tpath\20~/obsidian/main\tname\tmain\nsetup\robsidian\frequire\0", "config", "obsidian.nvim")
-time([[Config for obsidian.nvim]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Event lazy-loads

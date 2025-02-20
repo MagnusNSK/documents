@@ -45,37 +45,5 @@ return require('packer').startup(function(use)
       requires = {'nvim-tree/nvim-web-devicons'}
   }
 
-  use({
-      "epwalsh/obsidian.nvim",
-      tag = "*",
-      requires = {
-          "nvim-lua/plenary.nvim",
-      },
-      config = function()
-          require("obsidian").setup({
-              workspaces = {
-                  {
-                      name = "main",
-                      path = "~/obsidian/main",
-                  },
-              },
-              notes_subdir = "5-full-notes",
-              new_notes_location = "notes_subdir",
-              templates = {
-                  folder = "6-note-templates",
-                  date_format = "%Y-%m-%d-%a",
-                  time_format = "%H:%M",
-              },
-              disable_frontmatter = true,
-          })
-      end,
-  })
-
-  use 'hrsh7th/cmp-nvim-lsp'
-  use 'hrsh7th/cmp-buffer'
-  use 'hrsh7th/cmp-path'
-  use 'hrsh7th/cmp-cmdline'
-  use 'hrsh7th/nvim-cmp'
-
 end)
 
