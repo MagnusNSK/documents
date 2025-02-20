@@ -26,6 +26,8 @@ function fish_prompt
   set_color green; echo '> '
 end
 
+
+fish_add_path $HOME/.config/emacs/bin
 set -gx ANDROID_HOME "$HOME/Android/Sdk"
 set -gx NDK_HOME "/home/yukun/Android/Sdk/ndk/28.0.13004108/"
 set -gx JAVA_HOME "/opt/android-studio/jbr"
