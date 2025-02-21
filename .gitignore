@@ -10,6 +10,11 @@
 !.config/fcitx5/
 !.config/goldendict/
 !.config/mozc/
+!.config/user-dirs.conf
+!.config/user-dirs.dirs
+!.config/user-dirs.locale
+!.cargo/
+!.cargo/env.fish
 !.config/hypr/**
 !.config/foot/**
 !.config/fish/**
