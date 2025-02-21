@@ -21,6 +21,8 @@ alias pamcan=pacman
 alias vim="nvim"
 alias vi="nvim"
 
+set -Ux PATH ~/.config/emacs/bin $PATH
+
 function fish_prompt
   set_color cyan; echo (pwd)
   set_color green; echo '> '
