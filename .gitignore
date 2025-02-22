@@ -9,7 +9,6 @@
 !.config/fcitx/
 !.config/fcitx5/
 !.config/goldendict/
-!.config/mozc/
 !.config/doom/
 !.config/user-dirs.conf
 !.config/user-dirs.dirs
@@ -24,7 +23,6 @@
 !.config/fcitx/**
 !.config/fcitx5/**
 !.config/goldendict/**
-!.config/mozc/**
 !.config/doom/**
 !.bashrc
 !readme.md
