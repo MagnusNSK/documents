@@ -23,7 +23,7 @@ alias vi="nvim"
 
 fish_add_path $HOME/.emacs.d/bin
 set -Ux PAGER less
-
+set -Ux DOOMDIR "$HOME/.config/doom"
 
 function fish_prompt
   set_color cyan; echo (pwd)

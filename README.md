@@ -3,7 +3,7 @@
 ### *aur packages*
 * transformers_ocr (download)
 * f
-* emacs-git (*optional*)
+* emacs-git 	  (*optional*)
 * hunspell-ja-git (*4 emacs*)
 
 ### *pacman packages*
@@ -18,6 +18,8 @@
 * ripgrep        (*4 emacs*)
 * hunspell       (*4 emacs*)
 * hunspell-en_us (*4 emacs*)
+* graphviz	 (*4 emacs*)
+* shellcheck	 (*4 emacs*)
 
 ### *some commands*
 * kcmshell6 kcm_style
