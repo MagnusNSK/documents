@@ -2,11 +2,25 @@
 
 ### *aur packages*
 * transformers_ocr (download)
+* f
+* emacs-git (*optional*)
+* hunspell-ja-git (*4 emacs*)
 
 ### *pacman packages*
 * adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts
 * noto-fonts-cjk noto-fonts-emoji
 * fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-gtk fcitx5-qt
+* git
+* less           (*4 emacs*)
+* sqlite         (*4 emacs*)
+* fd             (*4 emacs*)
+* ripgrep        (*4 emacs*)
+* hunspell       (*4 emacs*)
+* hunspell-en_us (*4 emacs*)
+
+### *some commands*
+* kcmshell6 kcm_style
+* kcmshell6 kcm_colors
 
 - - -
 *Last updated: Feburary 21st, 2025.*
