@@ -2,12 +2,11 @@
 !.gitignore
 !.config/
 !.config/hypr/
+!.config/ags/
 !.config/foot/
 !.config/fish/
 !.config/nvim/
 !.config/mpv/
-!.config/fcitx/
-!.config/fcitx5/
 !.config/goldendict/
 !.config/doom/
 !.config/user-dirs.conf
@@ -16,12 +15,11 @@
 !.cargo/
 !.cargo/env.fish
 !.config/hypr/**
+!.config/ags/**
 !.config/foot/**
 !.config/fish/**
 !.config/nvim/**
 !.config/mpv/**
-!.config/fcitx/**
-!.config/fcitx5/**
 !.config/goldendict/**
 !.config/doom/**
 !.bashrc
